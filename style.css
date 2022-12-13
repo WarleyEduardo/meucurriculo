@@ -1,0 +1,134 @@
+:root{
+
+	--corBG :  rgb(230,230,230);
+	--corBG2 :  rgb(53, 58, 138);
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+ }
+
+
+
+ html, body {
+
+	width: 100%;
+	height: 100%;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: normal;	
+	background-color: var(--corBG);	
+	font-size: 16px;	
+
+	
+
+ }
+
+ .container{	
+	
+	 margin: auto;	
+	 background-color: white;	
+	 width: 60vw;
+	 display: flex;
+	flex-direction: column;
+	
+	
+ }
+
+  /* ---------- Nome e contato --------------------- */
+
+ .nome-container {
+    margin: 0  4vw;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	width: 53vw;
+	
+
+ }
+
+
+  .dados-nome {   
+	background-color: var(--corBG2);		
+	
+  }
+
+
+ .dados-nome{
+     font-size: 40px;
+	 font-weight: bold;
+	 text-align: center;
+	  color: white;
+
+ }
+
+ .dados-contato{
+	margin-top: 20px;
+ }
+
+ .dados-contato p {
+
+	text-align: center;
+ }
+
+/*-------------------------------------------------------*/
+
+
+
+ .escolaridade-container,
+ .curso-container,
+ .experiencia-container
+ {
+	 margin: 0  4vw;
+	 margin-bottom: 20px;
+	 font-size: 18px;
+	 width: 53vw;	 
+ }
+
+
+ .escolaridade-titulo,
+ .curso-titulo,
+ .experiencia-titulo 
+ {
+    background-color: var(--corBG2);
+	margin-bottom: 5px;	
+	
+ }
+
+.escolaridade-titulo h1,
+.curso-titulo h1,
+.experiencia-titulo h1
+{
+   
+	 font-size: 26px;
+	 font-weight: bold;
+	 color: white;
+}
+
+.experiencia{
+
+	 margin: 0 1vw;
+	 margin-top: 5px;  
+	 padding-bottom: 20px;
+	 border-bottom: 2px solid var(--corBG2);
+	 width: 50vw;  
+	 
+}
+
+.atividade{
+  
+	border: 1px solid var(--corBG2);
+	border-radius: 5px;
+}
+
+.rodape{
+	
+	margin: 0 4vw;
+	border: 20px solid var(--corBG2);
+	margin-bottom: 20px;
+
+}
+
+
