@@ -2,7 +2,24 @@
 
 	--corBG :  rgb(230,230,230);
 	--corBG2 :  rgb(53, 58, 138);
+	--ta-Container : 60vw;
+	--ta-nome-container  : 52vw;
+	--ta-sub-container  : 53vw;
+	--ta-experiencia :  50vw;  
+		
 }
+
+@media  (max-width: 600px){
+
+
+	:root{
+
+		 --ta-Container : 100vw;
+		 --ta-nome-container : 90vw;
+	}
+}
+
+  
 
 
 *{
@@ -21,22 +38,26 @@
 	font-family: 'Times New Roman', Times, serif;
 	font-style: normal;	
 	background-color: var(--corBG);	
-	font-size: 16px;	
+	font-size: 16px;
 
 	
 
  }
 
  .container{	
-	
-	 margin: auto;	
+
+	margin: auto;
 	 background-color: white;	
-	 width: 60vw;
+	 width: var(--ta-Container); 	
 	 display: flex;
-	flex-direction: column;
-	
+	flex-direction: column;	
+
+
+
 	
  }
+
+
 
   /* ---------- Nome e contato --------------------- */
 
@@ -44,8 +65,7 @@
     margin: 0  4vw;
 	padding-top: 30px;
 	margin-bottom: 20px;
-	width: 53vw;
-	
+	width: var(--ta-nome-container);	
 
  }
 
@@ -84,7 +104,7 @@
 	 margin: 0  4vw;
 	 margin-bottom: 20px;
 	 font-size: 18px;
-	 width: 53vw;	 
+	 width: var(--ta-sub-containersub);	 
  }
 
 
@@ -113,7 +133,7 @@
 	 margin-top: 5px;  
 	 padding-bottom: 20px;
 	 border-bottom: 2px solid var(--corBG2);
-	 width: 50vw;  
+	 width: var(--ta-experiencia); 
 	 
 }
 
@@ -130,5 +150,8 @@
 	margin-bottom: 20px;
 
 }
+
+
+
 
 
