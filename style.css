@@ -6,6 +6,7 @@
 	--ta-nome-container  : 52vw;
 	--ta-sub-container  : 53vw;
 	--ta-experiencia :  50vw;  
+	--margem-Container : auto;
 		
 }
 
@@ -14,9 +15,10 @@
 
 	:root{
 
-		 --ta-Container : 100vw;
-		 --ta-nome-container : 90vw;
-		 --ta-experiencia :90vw;
+		 --ta-Container : 90vw;
+		 --ta-nome-container : 80vw;
+		 --ta-experiencia :80vw;
+		 --margem-Container : auto;
 	}
 }
 
@@ -47,11 +49,13 @@
 
  .container{	
 
-	margin: auto;
-	 background-color: white;	
-	 width: var(--ta-Container); 	
-	 display: flex;
+	margin: var(--margem-Container);
+	margin-top: 10px;	
+	background-color: white;	
+	width: var(--ta-Container); 	
+	display: flex;
 	flex-direction: column;	
+    border-radius: 20px;
 
 
 
@@ -135,6 +139,7 @@
 	 padding-bottom: 20px;
 	 border-bottom: 2px solid var(--corBG2);
 	 width: var(--ta-experiencia); 
+	 
 	 
 }
 
