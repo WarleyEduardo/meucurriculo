@@ -7,6 +7,7 @@
 	--ta-sub-container  : 53vw;
 	--ta-experiencia :  50vw;  
 	--margem-Container : auto;
+	
 		
 }
 
@@ -138,16 +139,32 @@
 	 margin-top: 5px;  
 	 padding-bottom: 20px;
 	 border-bottom: 2px solid var(--corBG2);
-	 width: var(--ta-experiencia); 
+	 width: var(--ta-experiencia); 	
 	 
 	 
 }
 
 .atividade{
+
+	margin: 10px 0;
   
-	border: 1px solid var(--corBG2);
-	border-radius: 5px;
+	/*border: 1px solid var(--corBG2);*/
+	border-radius: 5px;	
+	display: none;
+
+	background-color: var(--corBG2); 
+	color: white;
+	
 }
+
+
+
+.box-atividade:hover .atividade{
+
+	display: block;
+}
+
+
 
 .rodape{
 	
@@ -157,6 +174,20 @@
 
 }
 
+.titulo-atividade{
+
+	color: white;
+    border: 1px solid black;
+	border-radius: 5px;
+	background-color: var(--corBG2);
+	cursor: pointer;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
 
 
 
